@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d8cab6;
+}
+
+section {
+    padding: 0 10rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+}
+
+.container-text {
+    width: 550px;
+}
+
+.container-text h1 {
+    font-family: 'Sixtyfour', sans-serif;
+    font-size: 2rem;
+    color: #BF3131;
+    margin-bottom: 18px;
+    cursor: default;
+}
+
+.container-text p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.container-form {
+    width: 400px;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.container-form form{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container-form input {
+    border: 1px solid #ccc;
+    padding: 1rem .6rem;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.container-form input:focus {
+    outline-color: #008CBA;
+    box-shadow: 0 0 5px #008CBA;
+}
+
+.container-form button {
+    border: none;
+    background-color: #BF3131;
+    color: #fff;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container-form button:hover {
+    background-color: #7D0A0A;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 1200px) {
+    section {
+        padding: 0 5rem;
+    }
+    main {
+        justify-content: space-between;
+    }
+    .container-text {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    section {
+        padding: 0 2rem;
+    }
+
+    main {
+        justify-content: space-around;
+    }
+
+    .container-text {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    section {
+        padding: 0 8rem;
+    }
+
+    main {
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .container-text {
+        width: 400px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .container-text {
+        width: 300px;
+    }
+
+    .container-form {
+        width: 300px;
+    }
+}
+
