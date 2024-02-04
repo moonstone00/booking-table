@@ -1,0 +1,41 @@
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: crimson;
+}
+
+.container .logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container .logo .text-logo {
+    font-size: 1.6rem;
+    font-family: 'Sixtyfour', sans-serif;
+}
+
+.container .logo .img-logo {
+    width: 50px;
+    height: auto;
+}
+
+.container nav button {
+    border: none;
+    background-color: #C7B7A3;
+    color: #561C24;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
