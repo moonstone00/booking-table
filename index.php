@@ -25,11 +25,5 @@
 
 <body>
     <?php include("features/header/header.php") ?>
-
-    <section>
-        <main>
-            <h1>This Is My Resto</h1>
-        </main>
-    </section>
 </body>
 </html>
